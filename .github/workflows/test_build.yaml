@@ -21,4 +21,4 @@ jobs:
           --target /data \
           --docker-hub jptekservices \
           --branch dev \
-          --target addon-open-weather-radio
+          --target open-weather-radio
