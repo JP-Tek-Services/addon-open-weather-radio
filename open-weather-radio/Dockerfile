@@ -20,7 +20,7 @@ RUN apt-get install --no-install-recommends --yes \
     vlc \
     sox
 
-RUN python3 -m pip install paho-mqtt
+RUN python3 -m pip install --upgrade setuptools && python3 -m pip install paho-mqtt
 #Install Open Weather Radio dependicies
 #Install multimon-ng
 RUN wget https://github.com/EliasOenal/multimon-ng/archive/1.1.9.tar.gz && tar -xvf 1.1.9.tar.gz
