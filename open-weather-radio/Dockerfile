@@ -35,8 +35,8 @@ RUN git clone https://github.com/Jpeterson37/dsame.git && \
     chmod +x /usr/local/bin/dsame.py && chmod +x /usr/local/bin/defs.py
 
 #Instll Open Weather Radio
-RUN wget https://github.com/JP-Tek-Services/open_weather_radio/archive/v0.0.1.tar.gz && tar -xvf v0.0.1.tar.gz
-RUN cp -r open_weather_radio-0.0.1/root/* /
+RUN git clone https://github.com/JP-Tek-Services/open_weather_radio.git && \
+    cp -r open_weather_radio/root/* /
 
 #VLC user for ogg http stream
 RUN useradd -m vlcuser
