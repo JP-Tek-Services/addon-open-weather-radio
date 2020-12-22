@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 
-export freq=$(bashio::config 'feq')
+export freq=$(bashio::config 'freq')
 export ppm=$(bashio::config 'ppm')
 export gain=$(bashio::config 'gain')
 export dsamelog=$(bashio::config 'dsamelog')
