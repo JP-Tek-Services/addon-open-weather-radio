@@ -34,5 +34,6 @@
     "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
     "init": true,
     "map": [],
+    "image": "jptekservices/addon-open-weather-radio-{arch}",
     "watchdog": "tcp://[HOST]:[PORT:8080]"
   }
