@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/with-contenv bashio
 
 export freq=$(bashio::config 'feq')
 export ppm=$(bashio::config 'ppm')
