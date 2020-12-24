@@ -3,6 +3,7 @@
 export freq=$(bashio::config 'freq')
 export ppm=$(bashio::config 'ppm')
 export gain=$(bashio::config 'gain')
+export same=$(bashio::config 'same')
 export dsamelog=$(bashio::config 'dsamelog')
 export mqttsvr=$(bashio::config 'mqttsvr')
 export mqttport=$(bashio::config 'mqttport')
