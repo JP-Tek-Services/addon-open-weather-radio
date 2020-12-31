@@ -4,6 +4,7 @@ v0.0.4
 - Fixed dsamelog requirement
 - Updated to sensor example. (requires updating ins configuration.yaml)
 - Updated automation example. (exclute status update events from triggering and added mobile notify example)
+- Added test function
 
 v0.0.3
 - Added SAME code support
