@@ -40,7 +40,7 @@ comparison to installing any other Home Assistant add-on.
 | freq | Frequency for [NWR stations](https://www.weather.gov/nwr/station_listing) | yes | 162.550M |
 | ppm | ppm error | no | 0 |
 | gain | Tuner gain | no | 40 |
-| same | SAME code to use | no | |
+| same | SAME code to use. seperated by white space | no | |
 | dsamelog | Set log level (int 10,20,30,40,50) | no | |
 | mqttsvr | MQTT Broker server address | no | |
 | mqttport | MQTT Broker Port | no | 1883 |

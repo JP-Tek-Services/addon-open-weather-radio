@@ -5,6 +5,9 @@ on:
   push:
     branches:
       - dev
+    paths:
+        - 'open-weather-radio/**'
+        - '.github/workflows/**'
 jobs:
   build:
     name: Test build
