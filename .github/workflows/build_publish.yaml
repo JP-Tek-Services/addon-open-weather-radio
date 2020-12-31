@@ -5,6 +5,10 @@ on:
   pull_request:
     branches:
       - master
+    paths:
+        - 'open-weather-radio/**'
+        - '.github/workflows/**'
+
 jobs:
   publish:
     name: Publish
